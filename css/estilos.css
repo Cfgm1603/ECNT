@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/*----------------------------------------
+SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
+------------------------------------------*/
+#div2{
+  display: none;
+}
+#myDIV2{
+  display: none;
+}
+#myDIV3{
+  display: none;
+}
+#myDIV4{
+  display: none;
+}
+.img_right{
+  float: right;
+}
+.redondo{
+  border-radius:15px;
+}
+#tlt1{
+  color:#620309;
+}
+#datoc{
+  background-color: #620309 ;
+}
+.txt2
+{
+  color: #ffffff;
+}
+.text
+{
+  color: #000000;
+
+}
+.bg-primary
+{
+  background-color: #242F40 !important;
+}
+
+.text-primary
+{
+  color: #620309 !important;
+}
+#bt1{
+  color: #ffffff ;
+  border-radius: 4px;
+  background-color: #620309;
+  font
+  border: none;
+  font-size: 20px;
+  padding:5px; /* Esto le da altura al boton */
+  width: 160px; /* Esto le da ancho al boton */
+  cursor: pointer;/* Esto hace que el mouse reaccione en todo el boton cambiando el cursor */
+
+}
+#bt{
+  color: #ffffff ;
+  border-radius: 4px;
+  background-color: #620309;
+  font
+  border: none;
+  font-size: 20px;
+  padding:5px; /* Esto le da altura al boton */
+  width: 150px; /* Esto le da ancho al boton */
+  cursor: pointer;/* Esto hace que el mouse reaccione en todo el boton cambiando el cursor */
+  
+}
+.button span {
+  position: relative;/* Hace que el la animacion quede al lado */
+  transition: 0.5s;/* Hace la animacion smooth */
+}
+
+.button span:after {
+  content: '\00bb';/* Esto le da las flechitas */
+  position: absolute;/* Mantiene el texto en la mitad */
+  opacity: 0;/* Mantiene la flecha escondida antes de que pase el mouse */
+  right: -8px;/* La aparicion de las flechas es acuerdo al HOVER */
+  transition: 0.5s;/*Le da tiempo a la animacion para aparecer*/
+}
+
+.button:hover span {
+  padding-right: 25px;/*Corre el Hover y las f */
+}
+
+.button:hover span:after {
+  opacity: 1;/*Hace que aparezca la flecha cuando el mouse esta encima */
+  right: 0;/*Hace que aparezca la flecha cuando el mouse esta encima */
+}
+
+.btn-primary 
+{
+  background-color: #620309 !important;
+  border-color: #000000 !important;
+}
+.navbar
+{
+  background-color: #ffffff !important;
+}
+
+.card
+{
+  border-radius:15px;
+  background-color: #242F40;
+}
+
+/*--------------------------
+ESTILOS DEL DISEÑO
+---------------------------*/
+html 
+{
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+
+body 
+{
+  color: #101f4a;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card:hover
+{
+  -webkit-box-shadow: 0 0 6px #ff0000;
+          box-shadow: 0 0 6px #5900ff; 
+  
+  
+}
+#img1
+{
+  float: right;
+}
+
+
+/*------------------------
+SHOW DE LOS MEDIAS QUERIES
+------------------------*/
+@media (min-width: 768px) 
+{
+  html 
+  {
+    font-size: 18px; 
+  } 
+}
+/*# sourceMappingURL=estilos.css.map */

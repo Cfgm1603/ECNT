@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="es"> <!-- Lenguaje Español -->
+
+<head> <!-- Encabezado de la página WEB -->
+
+  <meta charset="utf-8"> <!-- Reconocimiento de caracteres latinos como: ñ y tildes -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Visualización en dispositivos móviles -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo.png"> <!-- Icono de la ventana -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"> <!-- Fuentes “Google Font”  -->
+
+  <!-- Archivos CSS BOOTSTRAP 4 -->
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="css/estilos.css">
+  
+  <title>Linea de vida - César Giraldo</title>
+
+</head>
+
+<body> <!-- Cuerpo de la página WEB -->
+
+  <!-- Sección de navegación -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+    <div class="container" id="div0">      
+      <a class="navbar-brand">
+        <strong class="text">César Felipe Giraldo Mora</strong>
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menú de navegación">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu-principal">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item"><a href="#" class="nav-link"><strong class="text">Inicio</strong></a></li>
+          <li class="nav-item"><a href="#div1" class="nav-link"> <strong class="text">Etapas</strong></a></li>
+          <li class="nav-item"><a href="#div3" class="nav-link"><strong class="text">Proyectos</strong> </a></li>
+          <li class="nav-item"><a href="#div9" class="nav-link"><strong class="text">Música</strong> </a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+
+  <!-- Sección Personal --> 
+  <section class="quien-soy py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 text-center">
+          <img src="images/Cesar.jpeg" id="img1" width="431" height="614">
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-left align-self-md-center ">
+          <h1 class="display-4 font-weight-bold text-primary">¿Quién soy?</h1> 
+          <p>
+            Soy un estudiante de Ingeniería Informática, de tercer semestre en la Universidad de la Sabana, me gusta mucho la música, toco la guitarra e intento tocar el piano. Además juego tenis en mis tiempos libres. A continuación verán un poco de mi pasado y mis proyectos actuales, te recomiendo antes de empezar, probar el boton de música.
+          </p> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección motivacional -->
+  <section class="filosofia py-4 bg-primary text-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img src="images/Mark.jpg" width="260" height="auto" alt="Avatar Personal" class="img-fluid rounded-circle mb-4">
+          <div id ="div1"></div>
+          <p class="h2">
+            "Es mejor intentar algo que no funcione y aprender de ello, que no hacer nada"
+          </p>
+          <p class="h4 font-italic">
+            -Mark Zuckerberg
+            
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+
+<!-- Sección Proyectos personales -->
+  <section class="proyectos py-4">
+    <div class="container">
+      <h2 class="display-4 font-weight-bold text-center pb-4" id="tlt1">Etapas</h2>
+      <div class="row text-md-center">
+        
+        <!-- Proyecto #1 -->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100 redondo" src="images/Vcampa.jpeg" alt="Proyecto #1" width="390" height="315">
+            <div class="card-body">
+              <a href="#div5"><button class="button" id="bt" style="vertical-align:middle" onclick="accion1()"><span>Jardín</span></button><br></a>
+            </div>
+          </div>
+        </article>
+        
+        
+        <!-- Proyecto #2 -->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100 redondo" src="images/Disney.jpeg" alt="Proyecto #2" width="390" height="315">
+            <div class="card-body">
+              <a href="#div6"></a><button class="button" id="bt" style="vertical-align:middle" onclick="accion2()"><span>Primaria</span></button><br>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Proyecto #3 -->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100 redondo" src="images/AmigosA.jpeg" alt="Proyecto #2" width="390" height="315">
+            <div class="card-body">
+              <button class="button" id="bt" style="vertical-align:middle" onclick="accion3()"><span>Bachillerato</span></button><br>
+            </div>
+          </div>
+        </article>
+        
+        
+        <!-- Proyecto #4 -->
+        <article class="col-12 col-md-6 col-lg-3   mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100 redondo" src="images/Valentina.jpeg" alt="Proyecto #2" width="390" height="315">
+            <div class="card-body">
+              <div id="div5"></div>
+              <button class="button" id="bt1" style="vertical-align:middle" onclick="accion4()"><span>Universidad</span></button><br>
+            </div>
+            
+          </div>
+        </article>
+        <br>
+      
+      </div>
+      <div id="div6"></div>
+      <div id="div2">
+        <h2 id="tlt1"><b>Jardín</b></h2>
+        <img class="img_right" src="images/Colegio.jpg" width="500" height="333">
+        Estudie en el jardín Charlie Brown, que ya no existe asi que no puedo demostrar que yo realmente estuve allá, íbamos todos los días a pie, generalmente con mi mamá, cuando lo pensamos en retrospectiva era una caminata bien larga, pero nunca fue un problema. Cuando iba a entrar a transición, pasé al Gimnasio Santa Cristina de Toscana, un colegio femenino (¿Qué hacia allá? -mis papás querían que estudiara en el mismo colegio de mi hermana, ademas eramos la primera "promoción" con niños) donde hice increibles amistades que hoy aún tengo. Me gradué de transición con honores y me dieron una camioneta de juguete como premio, fue increíble.
+      <br><br><br>
+      </div>
+      <div id="myDIV2">
+        <h2 id="tlt1"><b>Primaria</b></h2>
+        <img class="img_right" src="images/TommyB.jpeg" width="561" height="585">
+        En tercero me cambie de colegio y me fui a vivir a Cota, aca estudie en el Gimnasio Campestre los Sauces descubrí el futbol, me obsesione con el futbol, hice otro montón de amigos, casi pierdo por primera vez una materia, tuve una novia, me terminaron, descubrí que las matemáticas no eran lo peor eso de sumar, restar, multiplicar no estaba tan feo, lo que si estaba feo era tener que aprenderse la mitocondria, eso lo deteste. Entrene casi todos los fines de semana futbol, hice mas amigos, queria que mi equipo del colegio ganara la competencia del colegio, y en quinto lo logré. Siguiente meta: hacerlo en bachillerato. También me gradué con honores de primaria, mi hermana iba a entra a 11 y yo apenas iba a entrar a 6, los mas pequeños de bachillerato, me daba muchos nervios y emoción. En esta etapa salí por primera vez del país y entendí para que era que ingles realmente servía, Disney me cambio la vida. Tambien en el cambio de ciudad a pueblo tuvimos a Tommy, un labrador blanco hermoso, su nombre era por que habia otro perro que nos gustaba mucho llamado Tobby, un labrador cafe que era de un vecino. Desde 2012 lo tenemos, ya va para los 10 años con nosotros.
+      <br><br><br>
+      </div>
+      <div id="myDIV3">
+        <h2 id="tlt1"><b>Bachillerato</b></h2>
+        <img class="img_right" src="images/Amigos.jpeg" width="365" height="207">
+        En bachillerato las cosas no cambian mucho, solo que los de 11 se ven muy grandes y te preguntas ¿Algún día seré asi?, ¿Me vere asi?, spoiler: no, solo que en esos grados los de 6 se ven muy pequeños. Y ahí es cuando te empiezas a dar cuenta que nadie realmente tiene el control, los adultos son niños que entendieron que es ser responsable y ganan dinero por alguna cosa en la que se volvieron buenos. Pero en esencia uno nunca crece. Asi que bueno bachillerato es una etapa de descubrir cosas, como que Química es lo peor, lo que me llevo a perder Química y Biología en 10 (solo un bimestre), las cosas nunca fluían con esas materias, eso solo me ayudo a descartar posibilidades de que estudiar. El entrar a bachillerato traía algo consigo, estas eran las ligas grandes de los campeonatos y ganar eso iba a estar bien difícil, hasta que llego los torneos, donde se juntaban de todos los cursos a formar un equipo, en 10 logramos ganar el torneo, asi que me cumplí. Esta es la época de ir a los quinceaños de las mujeres, lo que era divertido siempre se pasaba muy bien y conocías muchas personas distintas. También viví una pandemia mundial, saque mi último año escolar en esa realidad, me gradué en zoom, se repitió el patrón y me gradué con honores, también fui personero, aunque virtual realmente no hice nada, pero la campaña si fue divertida, porque esa si fue presencial. <br>
+        Pero también es una época en la que tomas unas de las decisiones mas importantes de tu vida, tu carrera. Siempre me gusto la tecnología, me apasiona ver que hay de nuevo, las matemáticas no eran un problema muy grave, asi que bueno era una ingeniería con algo de tecnología, y la universidad donde estudiaba mi hermana tenia exactamente eso, asi que eso nos llevo a donde nos encontramos ahora mismo, estudiando Ingeniería Informática en la Universidad de la Sabana.
+      <br><br><br>
+      </div>
+      <div id="myDIV4">
+        <h2 id="tlt1"><b>Universidad</b></h2>
+        <img class="img_right" src="images/Universidad.jpg" width="375" height="250">
+        En la Universidad he aprendido que las matemáticas si pueden ser feas, el profesor Beltrán se le tiene respeto POR UNA RAZON, he conocido personas increíbles, he vivido experiencias raras, distintas, pero han valido la pena. No puedo hablar tanto por que no he tenido todo el espectro de la universidad asi que por aca podemos dejarlo.
+      <br><br><br><br><br><br>
+        
+      
+      
+
+      </div>
+    
+  </section>
+  <!-- Datos curiosos -->
+  <section class="text-white" id="datoc">
+    <div class="container" id="datoc">
+      <div class="row">
+        <div class="col-12">
+          <br><br>
+          <p class="h2">
+            Dato curioso:
+          </p><br>
+          <p class="font-italic">
+            <img src="images/guessValentina.jpeg" width="326" height="410"class="img_right" alt="Avatar Personal" >
+            Inconscientemente cuando conozco a alguien digo algo muy malo sin querer, una amiga cuando la conocí le pregunte si habían pensado en otro nombre para ella, pero cuando me respondió ella me dijo que tenía un primer nombre, yo entendí que planeaban ponerle ese nombre y no me parecía que combinara, que sonaba pésimo. Pues bueno, ese era su nombre. <br><br><br>Ella es la amiga en cuestion, ¿Cuál crees que es el nombre? 
+          </p>
+          <input type="text" name="El Nombre" id="Texto1">
+          <br><i>Pista: su nombre empieza con V</i>	<br>
+          
+          <button class="button"style="vertical-align:middle" id="Bt4" onclick="accion_4()"><span>Adivinar</span></button></a><br><br><br><br><br><br>
+          
+        </div>
+      </div>
+      <div id="div3"></div>
+    </div>
+  </section>
+  <!-- Proyectos -->
+  <section class="proyectos py-4">
+    <div class="container">
+      <h2 class="display-4 font-weight-bold text-center pb-4" id="tlt1">Proyectos</h2>
+      <div class="row text-md-center">
+        
+        <!-- Proyecto #1 -->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100 redondo" src="images/exercise.png" alt="Proyecto #2" width="390" height="315">
+            <div class="card-body txt2">
+              <h5 class="card-title"> <b>Deporte</b> </h5>
+              <p class="card-text">
+                Tengo muchos proyectos, aunque son mas bien como metas, que estoy construyendo. Quiero ser constante con el ejercicio, para darle un “equilibrio” a mi vida, he estado yendo al CAF. Si avanza bien tal vez me meta a un gimnasio aparte, también me inscribí a tenis en la universidad.
+              </p>
+              
+            </div>
+          </div>
+        </article>
+        <!-- Proyecto #2 -->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100 redondo" src="images/work.png" alt="Proyecto #2" width="390" height="315">
+            <div class="card-body txt2">
+              <h5 class="card-title"><b>Trabajar</b> </h5>
+              <p class="card-text">
+                Buscar un trabajo en vacaciones donde puede enriquecer mis conocimientos en algún área de mi carrera, con las bases que ya he obtenido puedo empezar a buscar desde ya. Además de que empiezo a hacer una hoja de vida.
+              </p>
+              
+            </div>
+            <br><br>
+          </div>
+        </article>
+        
+        <!-- Proyecto #3 -->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100 redondo" src="images/travel.png" alt="Proyecto #2" width="390" height="315">
+            <div class="card-body txt2">
+              <h5 class="card-title"> <b>Viajar</b> </h5>
+              <p class="card-text">
+                Viajar, conocer rincones del mundo, el año pasado tuvimos la oportunidad de viajar a Nueva York, y realmente que no es tan caro si sabes encontrar buscar todo. El dinero de trabajar seria para este propósito.
+              
+              </p>
+              <br><br>            
+            </div>
+          </div>
+        </article>
+        <!-- Proyecto #4 -->
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100 redondo" src="images/instrument.png" alt="Proyecto #2" height="550" width="550">
+            <div class="card-body txt2">
+              <h5 class="card-title"> <b>Música</b> </h5>
+              <p class="card-text">
+                Siento que la musica nos da un espacio para liberar todo lo que tenemos, o nos ayuda a cargar con nuestros pensamientos. Por eso me encanta, y aprendí a tocar guitarra, ahora quiero tocar piano, por que siento que después de la Universidad si tengo el suficiente tiempo.
+              </p>
+              
+            </div>
+          </div>
+        </article>
+    </section>
+    <!-- Microemprendimiento -->
+  <section class="text-white" id="datoc">
+    <div class="container" id="datoc">
+      <div class="row">
+        <div class="col-12">
+          <br><br>
+          <p class="h2">
+            Micro-emprendimiento:
+          </p><br>
+          <p class="font-italic">
+            En el colegio tuve un emprendimiento de gomitas, todo comenzó cuando en mi casa nos regalaron dos cajas de gomas, una me la comí, la otra no sabía que hacer con ella, y en mi casa no comemos tanto dulce, asi que la vendía ilegalmente en el colegio, la ganancia era del 100%, asi que compre más cajas, las vendí, aumente portafolio. Tenía ya clientes fijos, algunos reservaban por que se vendían muy bien. Pero un día un compañero con el que nunca conectamos bien, me dijo de frente que iba a tumbar mi negocio, y le diría a un profesor, pero eso era caer muy bajo, yo se lo deje claro, eso realmente solo bajaba su reputación además que por mal que me vaya me llevaba una firma en el observador, si es que lograban demostrar que era yo. Por qué las gomitas nunca las dejaba conmigo, estaban en un locker sin dueño, pero yo le había puesto candado. No me las podían decomisar, ni demostrar que yo las vendía. Asi que lo que él hizo fue vender gomitas, pero a un precio donde literalmente ni ganaba devuelta, valían 100 pesos, las mías 200, claramente la gente conseguía más gomitas por el mismo precio, entonces mi negocio murió, y apenas yo lo deje, el también para que yo no lo delatara. Esto paso en 5 de primaria.
+          </p>
+          
+        </div>
+      </div>
+      <div id="div3"></div>
+    </div>
+  </section>
+  <section class="text-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" id="div9">
+          <br><br>
+          <p class="h4 font-italic text">
+            Me encanta la música, esta banda me gusta mucho tiene muuuy buena musica, podrias ponerlos mientras lees mi Blog!
+          </p> <br>
+          
+          
+          <iframe id="VideoPlayer" src="https://www.youtube.com/embed/MmhukK3zZ04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="400" width="800"></iframe><br>
+          <br><br>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+    
+  
+  
+
+<!-- Sección pie de página -->
+  <footer class="pie-de-pagina text-center text-md-right bg-dark text-white">
+    <div class="container">
+      <p class="m-0 py-3">
+        Febrero de 2022
+      </p>
+    </div>
+  </footer>
+
+  <!-- Archivos JAVASCRIPT BOOTSTRAP 4 -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+<script type="text/javascript">
+  function accion1(){
+    var x = document.getElementById("div2");
+    if (x.style.display == "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+    
+
+  }
+  function accion2(){
+    var x = document.getElementById("myDIV2");
+    if (x.style.display == "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  function accion3(){
+    var x = document.getElementById("myDIV3");
+    if (x.style.display == "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  function accion4(){
+    var x = document.getElementById("myDIV4");
+    if (x.style.display == "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  function accion_4(){var valentina=document.getElementById("Texto1").value; 
+    if (valentina=="Valentina") {alert("Correcto! Ese es el nombre")} else {alert("Nope, ese no es")}
+	}
+ 	function accion_0(){
+ 		window.scrollTo(0,document.body.scrollHeight);
+
+ 	}
+ 	function accion_8(){
+ 		window.scrollTo(0,0);
+
+ 	}
+  
+
+
+
+</script>
+</html>
